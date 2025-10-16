@@ -1,0 +1,16 @@
+"## .NET ##
+[Bb]in/
+[Oo]bj/
+/packages/
+*.user
+*.suo
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## VS
+.vs/
+*.csproj.user" | Out-File -FilePath .gitignore -Encoding ASCII
